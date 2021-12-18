@@ -1,0 +1,29 @@
+ <html>
+	<body>
+		<canvas width="600" height="600"></canvas>
+
+		<script>
+			let canvas = document.querySelector('canvas');
+			let context = canvas.getContext('2d');
+
+			// context.fillStyle = 'blue';
+			// context.fillRect(100, 100, 400, 400);
+
+			let Bands = ['Foo Fighters', "RHCP", 'Gorillaz', 'Beatles'];
+
+			function listArtists(param)
+			{
+				for (let k=0; k<param.length; k++)
+				{
+					console.log(param[k]);
+				}
+			}
+
+
+			listArtists(Bands);
+
+			
+
+		</script>
+	</body>
+</html>
